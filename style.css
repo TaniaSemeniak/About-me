@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(183, 214, 214);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header nav {
+    padding: 15px 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+header a:hover {
+    color: rgb(2, 71, 71)
+}
+
+header a:not(:last-child) {
+    margin-right: 20px;
+}
+
+header a:not(:last-child)::after {
+    content: "○";
+    display: inline-block;
+    margin: 0 0 7px 20px;
+}
+
+.about_me {
+    background-color: #FFF;
+    padding: 15px 0px;
+}
+
+.about_me div {
+    display: inline-block;
+    width: 250px;
+}
+
+.about_me div:first-child {
+    vertical-align: top;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: rgb(2, 71, 71);
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.hobbies {
+    padding: 15px 0px;
+}
+
+.hobbies h2+p {
+    width: 700px;
+    margin: 15px auto;
+}
+
+.hobbies h2 {
+    color: #FFF;
+}
+
+h2 {
+    font-size: 1.3rem;
+    color: rgb(2, 71, 71);
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: #FFF;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.hobbies a {
+    color: black;
+    text-decoration: none;
+}
+
+.hobbies a:hover {
+    color: #FFF;
+}
+
+article {
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
+    text-align: left;
+}
+
+article:not(:last-of-type) {
+    margin-right: 20px;
+    border-right: 1.5px dotted #FFF;
+}
+
+article:not(:first-of-type) a {
+    display: inline-block;
+}
+
+article:not(:first-of-type) a:hover {
+    opacity: 0.5;
+}
+
+article a:last-of-type {
+    margin-top: 5px;
+}
+
+.a-margin-right {
+    margin-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.code_girl {
+    background-color: #FFF;
+    padding: 15px 0;
+}
+
+.code_girl p {
+    margin: 15px auto;
+    width: 700px;
+}
+
+.code_girl a {
+    text-decoration: none;
+    color: rgb(2, 71, 71);
+}
+
+.code_girl a:hover {
+    opacity: 0.5;
+}
+
+h4 {
+    color: #FFF;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+.contacts {
+    padding: 15px 0;
+}
+
+.contacts a {
+    display: inline-block;
+}
+
+.contacts h2 {
+    margin-bottom: 15px;
+    color: #FFF;
+}
+
+.contacts a:not(:last-child) {
+    margin-right: 5px;
+}
